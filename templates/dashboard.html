@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    <p>Welcome to your dashboard, {{ current_user.username }}!</p>
+    <a href="{{ url_for('profile') }}" class="btn btn-info">Profile</a>
+{% endblock %}

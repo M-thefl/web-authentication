@@ -23,7 +23,7 @@ This is a simple web authentication system built with Flask. It provides functio
 ## Usage 
 **Command Line Usage**:
   ```py
-python main.py
+python app.py
 ```
 - Navigate to /register to create a new user account.  <br /> 
 - Use /login to log in with your credentials. <br /> 
